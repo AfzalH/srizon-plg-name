@@ -1,5 +1,4 @@
 # Srizon WP Plugin Boilerplate
----
 
 Just trying to maintain some consistency while developing WordPress plugins.
 Do the following after downloading this.
@@ -28,7 +27,6 @@ rename the folder name first
 ## More edits
 
 #### Check and edit the following files also
----
 
 * `composer.json`
 * `readme.txt`

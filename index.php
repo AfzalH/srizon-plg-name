@@ -15,3 +15,4 @@
 if ( ! defined( 'WPINC' ) ) {
 	die;
 }
+require_once 'vendor/autoload.php';
