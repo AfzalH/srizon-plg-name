@@ -1,0 +1,13 @@
+{
+  "name": "srizon/srizon-plg-name",
+  "description": "Srizon Plugin Description",
+  "license": "srizon-license",
+  "require": {
+    "yahnis-elsts/plugin-update-checker": "*",
+    "facebook/php-sdk-v4": "~5.0"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev"
+}
