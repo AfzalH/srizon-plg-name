@@ -11,8 +11,9 @@
  * Text Domain:       srizon-plg-name
  * Domain Path:       /languages
  */
-// If this file is called directly, abort.
-if ( ! defined( 'WPINC' ) ) {
-	die;
-}
-require_once 'vendor/autoload.php';
+
+require_once 'vendor/autoload.php'; // load composer files
+require_once 'inc/db.php'; // load db file
+require_once 'inc/defaults.php'; // load db file
+require_once 'admin/index.php'; // load admin files
+require_once 'site/index.php'; // load frontend files
