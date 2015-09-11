@@ -1,3 +1,3 @@
 <?php
-include_once('activate-deactivate.php');
-include_once('menu.php');
+require_once dirname(__FILE__).'/activate-deactivate.php';
+require_once dirname(__FILE__).'/menu.php';

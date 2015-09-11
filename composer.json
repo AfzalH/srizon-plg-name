@@ -3,7 +3,8 @@
   "description": "Srizon Plugin Description",
   "license": "srizon-license",
   "require": {
-    "php": ">5.2.4"
+    "php": ">5.3",
+    "webdevstudios/cmb2": "*"
   },
   "config": {
     "preferred-install": "dist"
