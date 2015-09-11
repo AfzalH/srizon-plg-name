@@ -12,8 +12,9 @@
  * Domain Path:       /languages
  */
 
-require_once 'vendor/autoload.php'; // load composer files
+if(file_exists('vendor/autoload.php')) require_once 'vendor/autoload.php'; // load vendor files
 require_once 'inc/db.php'; // load db file
 require_once 'inc/defaults.php'; // load db file
+require_once 'inc/helpers.php'; // load helper functions
 require_once 'admin/index.php'; // load admin files
 require_once 'site/index.php'; // load frontend files

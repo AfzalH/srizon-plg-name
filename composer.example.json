@@ -3,7 +3,10 @@
   "description": "Srizon Plugin Description",
   "license": "srizon-license",
   "require": {
-    "php": ">5.2.4"
+    "php": ">5.2.4",
+    "yahnis-elsts/plugin-update-checker": "*",
+    "facebook/php-sdk-v4": "~5.0",
+    "webdevstudios/cmb2": "*"
   },
   "config": {
     "preferred-install": "dist"

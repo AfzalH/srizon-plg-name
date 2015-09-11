@@ -4,109 +4,16 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4fa9fab4643241bf28c479fa74152ae8",
-    "packages": [
-        {
-            "name": "facebook/php-sdk-v4",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/facebook/facebook-php-sdk-v4.git",
-                "reference": "56dfa7727f06a6dfe5f315d4eb5b1d3db3251e93"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/facebook/facebook-php-sdk-v4/zipball/56dfa7727f06a6dfe5f315d4eb5b1d3db3251e93",
-                "reference": "56dfa7727f06a6dfe5f315d4eb5b1d3db3251e93",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "guzzlehttp/guzzle": "~5.0",
-                "mockery/mockery": "~0.8",
-                "phpunit/phpunit": "~4.0"
-            },
-            "suggest": {
-                "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Facebook\\": "src/Facebook/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Facebook Platform"
-            ],
-            "authors": [
-                {
-                    "name": "Facebook",
-                    "homepage": "https://github.com/facebook/facebook-php-sdk-v4/contributors"
-                }
-            ],
-            "description": "Facebook SDK for PHP",
-            "homepage": "https://github.com/facebook/facebook-php-sdk-v4",
-            "keywords": [
-                "facebook",
-                "sdk"
-            ],
-            "time": "2015-08-06 18:33:24"
-        },
-        {
-            "name": "yahnis-elsts/plugin-update-checker",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/YahnisElsts/plugin-update-checker.git",
-                "reference": "4a415c1f33105b8d787b1dd4166a6c3db38a7b1f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/YahnisElsts/plugin-update-checker/zipball/4a415c1f33105b8d787b1dd4166a6c3db38a7b1f",
-                "reference": "4a415c1f33105b8d787b1dd4166a6c3db38a7b1f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.0"
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Yahnis Elsts",
-                    "email": "whiteshadow@w-shadow.com",
-                    "homepage": "http://w-shadow.com/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A custom update checker for WordPress plugins. Useful if you can't host your plugin in the official WP plugin repository but still want it to support automatic plugin updates.",
-            "homepage": "https://github.com/YahnisElsts/plugin-update-checker/",
-            "keywords": [
-                "automatic updates",
-                "plugin updates",
-                "wordpress"
-            ],
-            "time": "2015-09-07 13:55:38"
-        }
-    ],
+    "hash": "0830930810602cd9b7474a2d802e514c",
+    "packages": [],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">5.2.4"
+    },
     "platform-dev": []
 }
