@@ -18,3 +18,8 @@ require_once dirname(__FILE__).'/inc/defaults.php'; // load db file
 require_once dirname(__FILE__).'/inc/helpers.php'; // load helper functions
 require_once dirname(__FILE__).'/admin/index.php'; // load admin files
 require_once dirname(__FILE__).'/site/index.php'; // load frontend files
+
+//load cmb2
+if ( file_exists( dirname( __FILE__ ) . '/vendor/webdevstudios/cmb2/init.php' ) ) {
+	require_once dirname( __FILE__ ) . '/vendor/webdevstudios/cmb2/init.php';
+}
